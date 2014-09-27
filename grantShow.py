@@ -172,14 +172,14 @@ audioPlan = [
 
 
 # create a new show
-show = showisk.Show(names, audioPlan, audiencePhone='61412591161', username='admin', pswd='L1v3pupp3t5')
+show = showisk.Show(names, audioPlan, audiencePhone=None, username='admin', pswd='Pr0ject84')
 #show = showisk.Show(names, audioPlan, audiencePhone='', username='admin', pswd='L1v3pupp3t5')
 
 
 # set some configuration parameters. For example the audio directory or the full path for commonly
 # played sounds like the beep or 'press 1'. No need to set everything, there are default values.
 show.audiodir = '/audio/'
-show.press1 = '/audio/Press1'
+show.press1 = '/audio/press-1'
 show.register ='/audio/Register1'
 show.nothuman = '/audio/nothuman'
 show.register2 = '/audio/Register2'		# asked when calling in
@@ -191,9 +191,9 @@ show.whenReconnected = '/audio/reconnected'
 show.thankyou = '/audio/thankyou'
 
 # the phones that we can call from to begin the main show. Add as many as you like
-triggerPhones = ['61431034289']
-show.collectPhones(triggerPhones)
+triggerPhones = ['']
+#show.collectPhones(triggerPhones)
 # collect phones, you can also add an optional maximum delay in case no call from a trigger phone is made
 # we have collected phones. begin the show#
-show.begin()
+show.begin(['61413817002'])
 #show.begin(['61413817002'])

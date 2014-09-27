@@ -37,8 +37,8 @@ class Show:
 
 		# configuration variables for common sounds. The audio dir is added ONLY to the filenames
 		# in the audio plan, NOT the common sounds variables below.
-		self.audiodir = ''					# a full path to be added to the files in the audio plan
-		self.press1 = 'press-1'				# the press 1 sound
+		self.audiodir = '/audio/'					# a full path to be added to the files in the audio plan
+		self.press1 = '/audio/press-1'				# the press 1 sound
 		self.beep = 'beep'					# the beep sound, after a button pressed
 		self.tryAgain = 'please-try-again'	# the please try again sound
 		self.whenReconnected = None			# audio to play when reconnecting after hangup
@@ -205,8 +205,8 @@ class Show:
 		# originate calls asynchronously so that  multiple calls can be initiated in parallel.
 		# Otherwise a call has to be answered for another one to start ringing, even if
 		# the originate commands are given from different threads
-		response = self.manager.originate(self.pathToTrunk + phone, caller_id=actorName, async=True, exten='callwait', context='testcall', priority='1')
-		print datetime.now(), 'Originating call to', actorName, phone, 'Response:', response
+		response = self.manager.originate(self.pathToTrunk + phone, caller_id=actorName, async=True, exten='letsgo', context='project84show', priority='1')
+		print datetime.now(),'Originating call to', actorName, phone, 'Response:', response
 
 
 		# wait for the call to be answered
@@ -551,7 +551,7 @@ if __name__ == "__main__":
 	]
 
 	# create a new show
-	show = Show(names, audioPlan, audiencePhone=None, username='admin', pswd='L1v3pupp3t5')
+	show = Show(names, audioPlan, audiencePhone=None, username='admin', pswd='Pr0ject84')
 
 	# you can set several config parameters such as sound files. Look at the beginning of the class
 	# definition to find all the configuration parameters as class attributes
@@ -559,9 +559,9 @@ if __name__ == "__main__":
 
 	# define your trigger phone numbers in a list, run collectPhones(), with optional maximum delay
 	# in secs, and then just begin the show
-	triggerPhones = ['61413817002']
-	show.collectPhones(triggerPhones, delay=150)
-	show.begin()
+	triggerPhones = ['']
+	show.collectPhones(triggerPhones, delay=5)
+	show.begin(['61413817002'])
 
 	# if you do not want to collect them during preshow then do not call collectPhone() and pass
 	# a list of phones as an arg to begin() e.g. show.begin(['302101000000', '61413000000'])
