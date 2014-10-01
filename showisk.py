@@ -301,6 +301,9 @@ class Show:
 		You can also call it so it does not wait, or with a different audio dir
 		'''
 		if dir is None: dir = self.audiodir
+		#TODO: Grant added this - should be done better!
+		#Prints a special value to the terminal for use with ableton audio
+		if actorName=="Audience": print("ABLETON "+filename)
 		cdict = {'Action':'AGI'}
 		cdict['Channel'] = self.channel[actorName]
 		cdict['Command'] = 'EXEC Playback ' + dir + filename
@@ -528,24 +531,24 @@ if __name__ == "__main__":
 	'''
 	audioPlan = [
 	# period0
-	{'Actor1': {'welcome':{1:None}},
+	{'Actor1': {'TestAudience01':{1:None}},
 	 'Actor2': {'welcome':{1:None}},
 	 'Actor3': {'welcome':{1:None}},
-	 'Audience': {'welcome':{1:None}}
+	 'Audience': {'TestAudience01':{1:None}}
 	},
 
 	# period1
-	{'Actor1': {'tt-monty-knights':{1:'priv-introsaved', 2:'priv-callpending', 3:'queue-minutes'}},
+	{'Actor1': {'TestAudience02':{1:'priv-introsaved', 2:'priv-callpending', 3:'queue-minutes'}},
 	 'Actor2': {'tt-monty-knights':{1:'good', 2:{'enter-num-blacklist':{1:'press-1', 2:'press-2'}}}},
 	 'Actor3': {'different-file':None},
 	 'Actor4': {'tt-monty-knights':{'play-another-file':None}},
-	 'Audience': {'tt-monty-knights':None}
+	 'Audience': {'TestAudience02':None}
 	},
 
 	#pediod2
-	{'Actor1': {'goodbye':None},
+	{'Actor1': {'TestAudience03':None},
 	 'Actor2': {'goodbye':None},
-	 'Audience': {'goodbye':None},
+	 'Audience': {'TestAudience03':None},
 	}
 
 	]
@@ -560,7 +563,7 @@ if __name__ == "__main__":
 	# define your trigger phone numbers in a list, run collectPhones(), with optional maximum delay
 	# in secs, and then just begin the show
 	triggerPhones = ['']
-	show.collectPhones(triggerPhones, delay=5)
+	#show.collectPhones(triggerPhones, delay=1)
 	show.begin(['61413817002'])
 
 	# if you do not want to collect them during preshow then do not call collectPhone() and pass
