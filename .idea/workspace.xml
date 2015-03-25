@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb89d643-c07f-4027-b48d-498fa0699f6e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AudioPlayer.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AudienceAudioIntegrator.py" afterPath="$PROJECT_DIR$/AudienceAudioIntegrator.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Script.iml" afterPath="$PROJECT_DIR$/.idea/Script.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AudioPlayer.py" afterPath="$PROJECT_DIR$/AudioPlayer.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/debugger.py" afterPath="$PROJECT_DIR$/debugger.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grantShow.py" afterPath="$PROJECT_DIR$/grantShow.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/showisk.py" afterPath="$PROJECT_DIR$/showisk.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Script.iws" />
@@ -21,10 +18,10 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Script$AudienceAudioIntegrator.coverage" NAME="AudienceAudioIntegrator Coverage Results" MODIFIED="1412165589262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Script$AudienceAudioIntegrator.coverage" NAME="AudienceAudioIntegrator Coverage Results" MODIFIED="1427283620437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Script$grantShow.coverage" NAME="grantShow Coverage Results" MODIFIED="1411795368615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Script$showisk.coverage" NAME="showisk Coverage Results" MODIFIED="1411905480412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Script$AudioPlayer.coverage" NAME="AudioPlayer Coverage Results" MODIFIED="1412161889755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Script$AudioPlayer.coverage" NAME="AudioPlayer Coverage Results" MODIFIED="1412416166134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -38,10 +35,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="AudienceAudioIntegrator.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AudienceAudioIntegrator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="34" selection-start="2107" selection-end="2107" vertical-scroll-proportion="-3.4313726" vertical-offset="335" max-vertical-offset="1156">
+              <folding>
+                <element signature="e#40#57#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="grantShow.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grantShow.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="178" column="0" selection-start="7229" selection-end="7968" vertical-scroll-proportion="0.0" vertical-offset="3079" max-vertical-offset="3468">
+            <state line="140" column="19" selection-start="5931" selection-end="5931" vertical-scroll-proportion="0.0" vertical-offset="2055" max-vertical-offset="3077">
               <folding />
             </state>
           </provider>
@@ -50,56 +58,25 @@
       <file leaf-file-name="debugger.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/debugger.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="175" column="64" selection-start="7222" selection-end="7222" vertical-scroll-proportion="0.0" vertical-offset="2841" max-vertical-offset="3485">
+            <state line="183" column="12" selection-start="7951" selection-end="7951" vertical-scroll-proportion="0.0" vertical-offset="3111" max-vertical-offset="3213">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="showisk.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/showisk.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="305" column="31" selection-start="13891" selection-end="13891" vertical-scroll-proportion="0.0" vertical-offset="6522" max-vertical-offset="9707">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AudienceAudioIntegrator.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AudienceAudioIntegrator.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="32" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="663">
-              <folding>
-                <element signature="e#40#57#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AudioPlayer.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AudioPlayer.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AudioPlayer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="21" selection-start="440" selection-end="440" vertical-scroll-proportion="0.3933162" vertical-offset="187" max-vertical-offset="1581">
-              <folding>
-                <element signature="e#29#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="donothing.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/donothing.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="6" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+            <state line="29" column="0" selection-start="702" selection-end="702" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="1479">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="showiskdebug.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/showiskdebug.py">
+      <file leaf-file-name="showisk.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/showisk.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="5253" max-vertical-offset="9588">
+            <state line="109" column="13" selection-start="0" selection-end="26467" vertical-scroll-proportion="-5.0606937" vertical-offset="3519" max-vertical-offset="9707">
               <folding />
             </state>
           </provider>
@@ -124,11 +101,11 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/donothing.py" />
-        <option value="$PROJECT_DIR$/grantShow.py" />
-        <option value="$PROJECT_DIR$/AudienceAudioIntegrator.py" />
         <option value="$PROJECT_DIR$/showisk.py" />
-        <option value="$PROJECT_DIR$/debugger.py" />
         <option value="$PROJECT_DIR$/AudioPlayer.py" />
+        <option value="$PROJECT_DIR$/debugger.py" />
+        <option value="$PROJECT_DIR$/AudienceAudioIntegrator.py" />
+        <option value="$PROJECT_DIR$/grantShow.py" />
       </list>
     </option>
   </component>
@@ -209,7 +186,7 @@
     <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Lucille and Grant/LucilleGrantShowScript" />
     <property name="FullScreen" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -501,26 +478,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39869282" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32189542" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.6781046" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32189542" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12225476" sideWeight="0.62908494" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39869282" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.59313726" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37091503" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39869282" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -567,9 +544,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/donothing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255">
-          <folding />
-        </state>
+        <state line="9" column="0" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grantShow.py">
@@ -593,56 +568,34 @@
     </entry>
     <entry file="file://C:/Python27/Lib/threading.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="22729">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/showiskdebug.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="5253" max-vertical-offset="9588">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/donothing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="6" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grantShow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="178" column="0" selection-start="7229" selection-end="7968" vertical-scroll-proportion="0.0" vertical-offset="3079" max-vertical-offset="3468">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="22729" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.PyCharm20/system/python_stubs/-762174762/__builtin__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="1119" selection-end="1183" vertical-scroll-proportion="0.0" vertical-offset="364" max-vertical-offset="86683">
-          <folding />
-        </state>
+        <state line="29" column="0" selection-start="1119" selection-end="1183" vertical-scroll-proportion="0.0" vertical-offset="364" max-vertical-offset="86683" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/showisk.py">
+    <entry file="file://$PROJECT_DIR$/donothing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="305" column="31" selection-start="13891" selection-end="13891" vertical-scroll-proportion="0.0" vertical-offset="6522" max-vertical-offset="9707">
-          <folding />
-        </state>
+        <state line="10" column="6" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/showiskdebug.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-4.524194" vertical-offset="1683" max-vertical-offset="9588" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/debugger.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="175" column="64" selection-start="7222" selection-end="7222" vertical-scroll-proportion="0.0" vertical-offset="2841" max-vertical-offset="3485">
+        <state line="183" column="12" selection-start="7951" selection-end="7951" vertical-scroll-proportion="0.0" vertical-offset="916" max-vertical-offset="3213">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AudienceAudioIntegrator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="32" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="663">
+        <state line="30" column="34" selection-start="2107" selection-end="2107" vertical-scroll-proportion="-3.4313726" vertical-offset="335" max-vertical-offset="1156">
           <folding>
             <element signature="e#40#57#0" expanded="true" />
           </folding>
@@ -651,10 +604,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AudioPlayer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="21" selection-start="440" selection-end="440" vertical-scroll-proportion="0.3933162" vertical-offset="187" max-vertical-offset="1581">
-          <folding>
-            <element signature="e#29#40#0" expanded="true" />
-          </folding>
+        <state line="29" column="0" selection-start="702" selection-end="702" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1479">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grantShow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="140" column="19" selection-start="5931" selection-end="5931" vertical-scroll-proportion="0.0" vertical-offset="2055" max-vertical-offset="3077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/showisk.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="109" column="13" selection-start="0" selection-end="26467" vertical-scroll-proportion="-5.0606937" vertical-offset="3519" max-vertical-offset="9707">
+          <folding />
         </state>
       </provider>
     </entry>

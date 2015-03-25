@@ -19,7 +19,7 @@ def playwav(fname):
     s=' '
     time.sleep(0.2)
     while len( s )>0:
-       s= f.readframes( 10 ) #TODO: May need to fix this up
+       s= f.readframes( 100 ) #TODO: May need to fix this up
        snd.play( s )
     while snd.isPlaying(): time.sleep( 0.05 )
 def playInThread(fname):
@@ -30,6 +30,8 @@ def playInThread(fname):
 
 #-------------------------------------------
 #if __name__== '__main__':
+    #playInThread("C:\\Users\\Administrator\\Documents\\UNI\\Performing\\Felicity Nicols - 1984\\Technical\\AudioFiles\\Split\\Audience04.wav")
+    #print "I PLAYED IT"
     #print "HI"
     #line ="ABLETON /audio/Alpha_01"
     #if "ABLETON" in line:
