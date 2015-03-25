@@ -184,7 +184,7 @@ class Show:
 					t.start()
 					actorThreads.append(t)
 				else:
-					print datetime.now(), "WARNING", actorName, "is in the plan but does not have an established call"
+					print datetime.now(), "*******#######WARNING", actorName, "is in the plan but does not have an established call"
 
 			# wait for all threads to finish before proceeding to the next period
 			for t in actorThreads:
@@ -232,7 +232,7 @@ class Show:
 					self.playback(self.nothuman, actorName, dir='')
 				self.manager.hangup(self.channel[actorName])
 				print datetime.now(), 'Call answered but', actorName, 'did not press 1 within', delay, 'secs'
-				print datetime.now(), '======================WARNING! PERFORMANCE MUST BE RESTARTED, Please press CTRL Z and run python debuggrantShow.py==========================='
+				print datetime.now(), '======================WARNING! PERFORMANCE MUST BE RESTARTED, Cancel the show! and change the number for above actor==========================='
 				# remove this actor, channel, and unique ID from the corresponding dictionaries
 				chan = self.channel[actorName]
 				uniqID = self.uniqueID[actorName]
@@ -241,7 +241,7 @@ class Show:
 				del self.actor[uniqID]
 				del self.actorFromChan[chan]
 		else:
-			print datetime.now(), 'Call to', actorName, 'was NOT answered'
+			print datetime.now(), '======WARNING! CANCEL SHOW! The Call to', actorName, 'was NOT answered ===== Check the actor and change their number? ======='
 
 
 	def _execute_plan(self, plan, actorName):
@@ -410,7 +410,7 @@ class Show:
 			if actorName in self.eventsCallAnswer and not self.eventsCallAnswer[actorName].is_set():
 				self.eventsCallAnswer[actorName].set()
 			else:
-				print datetime.now(), "WARNING", actorName, "answered a call, which is not originated, or waiting to be answered"
+				print datetime.now(), "====WARNING", actorName, "answered a call, which is not originated, or waiting to be answered"
 
 	def handle_DTMF(self, event, manager):
 		#print datetime.now(), event.name, event.headers
@@ -453,7 +453,7 @@ class Show:
 		uniqID = event.headers['Uniqueid']
 		# Try to reconect only if we are not shutting down and this is an established call
 		if (not self.shuttingDown) and (actorName in self.phoneNum) and (actorName in self.uniqueID) and (self.uniqueID[actorName] == uniqID):
-			print datetime.now(), actorName, '*Hangup*  Will try to call back.'
+			print datetime.now(), actorName, '***Hangup***  Will try to call back.'
 			# delete relevant entries from the dictionaries, keep only the phoneNum connection
 			chan = self.channel[actorName]
 			del self.channel[actorName]
