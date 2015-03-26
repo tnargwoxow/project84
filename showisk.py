@@ -37,8 +37,8 @@ class Show:
 
 		# configuration variables for common sounds. The audio dir is added ONLY to the filenames
 		# in the audio plan, NOT the common sounds variables below.
-		self.audiodir = ''					# a full path to be added to the files in the audio plan
-		self.press1 = 'press-1'				# the press 1 sound
+		self.audiodir = '/audio/'					# a full path to be added to the files in the audio plan
+		self.press1 = '/audio/press-1'				# the press 1 sound
 		self.beep = 'beep'					# the beep sound, after a button pressed
 		self.tryAgain = 'please-try-again'	# the please try again sound
 		self.whenReconnected = None			# audio to play when reconnecting after hangup
@@ -184,7 +184,7 @@ class Show:
 					t.start()
 					actorThreads.append(t)
 				else:
-					print datetime.now(), "WARNING", actorName, "is in the plan but does not have an established call"
+					print datetime.now(), "*******#######WARNING", actorName, "is in the plan but does not have an established call"
 
 			# wait for all threads to finish before proceeding to the next period
 			for t in actorThreads:
@@ -205,8 +205,8 @@ class Show:
 		# originate calls asynchronously so that  multiple calls can be initiated in parallel.
 		# Otherwise a call has to be answered for another one to start ringing, even if
 		# the originate commands are given from different threads
-		response = self.manager.originate(self.pathToTrunk + phone, caller_id=actorName, async=True, exten='callwait', context='testcall', priority='1')
-		print datetime.now(), 'Originating call to', actorName, phone, 'Response:', response
+		response = self.manager.originate(self.pathToTrunk + phone, caller_id=actorName, async=True, exten='letsgo', context='project84show', priority='1')
+		print datetime.now(),'Originating call to', actorName, phone, 'Response:', response
 
 
 		# wait for the call to be answered
@@ -232,7 +232,7 @@ class Show:
 					self.playback(self.nothuman, actorName, dir='')
 				self.manager.hangup(self.channel[actorName])
 				print datetime.now(), 'Call answered but', actorName, 'did not press 1 within', delay, 'secs'
-				print datetime.now(), '======================WARNING! PERFORMANCE MUST BE RESTARTED, Please press CTRL Z and run python debuggrantShow.py==========================='
+				print datetime.now(), '======================WARNING! PERFORMANCE MUST BE RESTARTED, Cancel the show! and change the number for above actor==========================='
 				# remove this actor, channel, and unique ID from the corresponding dictionaries
 				chan = self.channel[actorName]
 				uniqID = self.uniqueID[actorName]
@@ -241,7 +241,7 @@ class Show:
 				del self.actor[uniqID]
 				del self.actorFromChan[chan]
 		else:
-			print datetime.now(), 'Call to', actorName, 'was NOT answered'
+			print datetime.now(), '======WARNING! CANCEL SHOW! The Call to', actorName, 'was NOT answered ===== Check the actor and change their number? ======='
 
 
 	def _execute_plan(self, plan, actorName):
@@ -301,6 +301,9 @@ class Show:
 		You can also call it so it does not wait, or with a different audio dir
 		'''
 		if dir is None: dir = self.audiodir
+		#TODO: Grant added this - should be done better!
+		#Prints a special value to the terminal for use with ableton audio
+		if actorName=="Audience": print("ABLETON "+filename)
 		cdict = {'Action':'AGI'}
 		cdict['Channel'] = self.channel[actorName]
 		cdict['Command'] = 'EXEC Playback ' + dir + filename
@@ -407,7 +410,7 @@ class Show:
 			if actorName in self.eventsCallAnswer and not self.eventsCallAnswer[actorName].is_set():
 				self.eventsCallAnswer[actorName].set()
 			else:
-				print datetime.now(), "WARNING", actorName, "answered a call, which is not originated, or waiting to be answered"
+				print datetime.now(), "====WARNING", actorName, "answered a call, which is not originated, or waiting to be answered"
 
 	def handle_DTMF(self, event, manager):
 		#print datetime.now(), event.name, event.headers
@@ -450,7 +453,7 @@ class Show:
 		uniqID = event.headers['Uniqueid']
 		# Try to reconect only if we are not shutting down and this is an established call
 		if (not self.shuttingDown) and (actorName in self.phoneNum) and (actorName in self.uniqueID) and (self.uniqueID[actorName] == uniqID):
-			print datetime.now(), actorName, '*Hangup*  Will try to call back.'
+			print datetime.now(), actorName, '***Hangup***  Will try to call back.'
 			# delete relevant entries from the dictionaries, keep only the phoneNum connection
 			chan = self.channel[actorName]
 			del self.channel[actorName]
@@ -528,30 +531,30 @@ if __name__ == "__main__":
 	'''
 	audioPlan = [
 	# period0
-	{'Actor1': {'welcome':{1:None}},
+	{'Actor1': {'TestAudience01':{1:None}},
 	 'Actor2': {'welcome':{1:None}},
 	 'Actor3': {'welcome':{1:None}},
-	 'Audience': {'welcome':{1:None}}
+	 'Audience': {'TestAudience01':{1:None}}
 	},
 
 	# period1
-	{'Actor1': {'tt-monty-knights':{1:'priv-introsaved', 2:'priv-callpending', 3:'queue-minutes'}},
+	{'Actor1': {'TestAudience02':{1:'priv-introsaved', 2:'priv-callpending', 3:'queue-minutes'}},
 	 'Actor2': {'tt-monty-knights':{1:'good', 2:{'enter-num-blacklist':{1:'press-1', 2:'press-2'}}}},
 	 'Actor3': {'different-file':None},
 	 'Actor4': {'tt-monty-knights':{'play-another-file':None}},
-	 'Audience': {'tt-monty-knights':None}
+	 'Audience': {'TestAudience02':None}
 	},
 
 	#pediod2
-	{'Actor1': {'goodbye':None},
+	{'Actor1': {'TestAudience03':None},
 	 'Actor2': {'goodbye':None},
-	 'Audience': {'goodbye':None},
+	 'Audience': {'TestAudience03':None},
 	}
 
 	]
 
 	# create a new show
-	show = Show(names, audioPlan, audiencePhone=None, username='admin', pswd='L1v3pupp3t5')
+	show = Show(names, audioPlan, audiencePhone=None, username='admin', pswd='Pr0ject84')
 
 	# you can set several config parameters such as sound files. Look at the beginning of the class
 	# definition to find all the configuration parameters as class attributes
@@ -559,9 +562,9 @@ if __name__ == "__main__":
 
 	# define your trigger phone numbers in a list, run collectPhones(), with optional maximum delay
 	# in secs, and then just begin the show
-	triggerPhones = ['61413817002']
-	show.collectPhones(triggerPhones, delay=150)
-	show.begin()
+	triggerPhones = ['']
+	#show.collectPhones(triggerPhones, delay=1)
+	show.begin(['61413817002'])
 
 	# if you do not want to collect them during preshow then do not call collectPhone() and pass
 	# a list of phones as an arg to begin() e.g. show.begin(['302101000000', '61413000000'])
