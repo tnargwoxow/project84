@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb89d643-c07f-4027-b48d-498fa0699f6e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AudienceAudioIntegrator.py" afterPath="$PROJECT_DIR$/AudienceAudioIntegrator.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AudioPlayer.py" afterPath="$PROJECT_DIR$/AudioPlayer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/debugger.py" afterPath="$PROJECT_DIR$/debugger.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grantShow.py" afterPath="$PROJECT_DIR$/grantShow.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Script.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -18,7 +14,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Script$AudienceAudioIntegrator.coverage" NAME="AudienceAudioIntegrator Coverage Results" MODIFIED="1427283620437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Script$AudienceAudioIntegrator.coverage" NAME="AudienceAudioIntegrator Coverage Results" MODIFIED="1427285557709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Script$grantShow.coverage" NAME="grantShow Coverage Results" MODIFIED="1411795368615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Script$showisk.coverage" NAME="showisk Coverage Results" MODIFIED="1411905480412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Script$AudioPlayer.coverage" NAME="AudioPlayer Coverage Results" MODIFIED="1412416166134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -38,7 +34,7 @@
       <file leaf-file-name="AudienceAudioIntegrator.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AudienceAudioIntegrator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="34" selection-start="2107" selection-end="2107" vertical-scroll-proportion="-3.4313726" vertical-offset="335" max-vertical-offset="1156">
+            <state line="9" column="85" selection-start="572" selection-end="572" vertical-scroll-proportion="1.0" vertical-offset="204" max-vertical-offset="1156">
               <folding>
                 <element signature="e#40#57#0" expanded="true" />
               </folding>
@@ -46,10 +42,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="grantShow.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="grantShow.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grantShow.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="140" column="19" selection-start="5931" selection-end="5931" vertical-scroll-proportion="0.0" vertical-offset="2055" max-vertical-offset="3077">
+            <state line="173" column="118" selection-start="7465" selection-end="7465" vertical-scroll-proportion="2.5955632" vertical-offset="1420" max-vertical-offset="3077">
               <folding />
             </state>
           </provider>
@@ -73,10 +69,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="showisk.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="showisk.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/showisk.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="109" column="13" selection-start="0" selection-end="26467" vertical-scroll-proportion="-5.0606937" vertical-offset="3519" max-vertical-offset="9707">
+            <state line="570" column="0" selection-start="26578" selection-end="26578" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9707">
               <folding />
             </state>
           </provider>
@@ -101,10 +97,10 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/donothing.py" />
-        <option value="$PROJECT_DIR$/showisk.py" />
         <option value="$PROJECT_DIR$/AudioPlayer.py" />
         <option value="$PROJECT_DIR$/debugger.py" />
         <option value="$PROJECT_DIR$/AudienceAudioIntegrator.py" />
+        <option value="$PROJECT_DIR$/showisk.py" />
         <option value="$PROJECT_DIR$/grantShow.py" />
       </list>
     </option>
@@ -492,7 +488,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39869282" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.59313726" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37091503" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37091503" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -593,15 +589,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AudienceAudioIntegrator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="34" selection-start="2107" selection-end="2107" vertical-scroll-proportion="-3.4313726" vertical-offset="335" max-vertical-offset="1156">
-          <folding>
-            <element signature="e#40#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AudioPlayer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="0" selection-start="702" selection-end="702" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1479">
@@ -609,16 +596,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grantShow.py">
+    <entry file="file://$PROJECT_DIR$/showisk.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="140" column="19" selection-start="5931" selection-end="5931" vertical-scroll-proportion="0.0" vertical-offset="2055" max-vertical-offset="3077">
+        <state line="570" column="0" selection-start="26578" selection-end="26578" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9707">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/showisk.py">
+    <entry file="file://$PROJECT_DIR$/AudienceAudioIntegrator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="13" selection-start="0" selection-end="26467" vertical-scroll-proportion="-5.0606937" vertical-offset="3519" max-vertical-offset="9707">
+        <state line="9" column="85" selection-start="572" selection-end="572" vertical-scroll-proportion="1.0" vertical-offset="204" max-vertical-offset="1156">
+          <folding>
+            <element signature="e#40#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grantShow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="173" column="118" selection-start="7465" selection-end="7465" vertical-scroll-proportion="2.5955632" vertical-offset="1420" max-vertical-offset="3077">
           <folding />
         </state>
       </provider>
