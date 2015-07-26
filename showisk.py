@@ -218,6 +218,7 @@ class Show:
 				print datetime.now(), 'Success establishing call to', actorName
 				self.phoneNum[actorName] = phone  # associate phone number with actor
 				self.playback(self.thankyou, actorName, dir='')
+				if reconnected: self.playback(self.whenReconnected, actorName, dir='')
 				return True
 			sleep(1) # needs a small delay before the channel becomes valid for playback
 			# if the call is answered, ask for the actor to press 1 (to confirm real interaction)
@@ -226,7 +227,7 @@ class Show:
 				print datetime.now(), 'Success establishing call to', actorName
 				self.phoneNum[actorName] = phone  # associate phone number with actor
 				self.playback(self.thankyou, actorName, dir='')
-				if reconnected: self.playback(self.whenReconnected, actorName, dir='')
+
 			else:
 				if self.nothuman:
 					self.playback(self.nothuman, actorName, dir='')
