@@ -469,7 +469,7 @@ class Show:
 			sleep(0.5)
 			# establish a new call. Start a new thread, we should not do any waiting in handlers
 			# we are still waiting for 1 to be pressed, 30sec max delay, *and* playing the whenReconnected sound
-			t = threading.Thread(target=self._establishCall, args=(self.phoneNum[actorName], actorName, True, 30, True))
+			t = threading.Thread(target=self._establishCall, args=(self.phoneNum[actorName], actorName, False, 30, True))
 			t.start()
 
 
