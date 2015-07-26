@@ -153,27 +153,11 @@ audioPlan = [
      'Megatroll':   {'Megatroll12':None},
      'Audience': {'Audience12':None},
     },
-    {'Antagonist': {'Antagonist13':None},
-     'Alpha': {'Alpha13':None},
-     'Intellectual':  {'Intellectual13':None},
-     'Cancerfriend': {'Cancerfriend13':None},
-     'Redhead': {'Redhead13':None},
-     'Megatroll':   {'Megatroll13':None},
-     'Audience': {'Audience13':None},
-    },
-    {'Antagonist': {'Antagonist14':None},
-     'Alpha': {'Alpha14':None},
-     'Intellectual':  {'Intellectual14':None},
-     'Cancerfriend': {'Cancerfriend14':None},
-     'Redhead': {'Redhead14':None},
-     'Megatroll':   {'Megatroll14':None},
-     'Audience': {'Audience14':None},
-    },
     ]
 
 
 # create a new show
-show = showisk.Show(names, audioPlan, audiencePhone='61413817002', username='admin', pswd='Pr0ject84')
+show = showisk.Show(names, audioPlan, audiencePhone='61415867748', username='admin', pswd='Pr0ject84')
 #show = showisk.Show(names, audioPlan, audiencePhone='', username='admin', pswd='L1v3pupp3t5')
 
 
@@ -197,4 +181,4 @@ show.thankyou = '/audio/thankyou'
 # collect phones, you can also add an optional maximum delay in case no call from a trigger phone is made
 # we have collected phones. begin the show#
 #show.begin(['61432790495','61411066626','61432449908','61416807801','61401729620','61404340929'],randomShuffle=False,)
-show.begin([''],randomShuffle=False,)
+show.begin(['61404299566','61422908229','61432516837','61418121393','61420430987','61425314363'],randomShuffle=False,)
