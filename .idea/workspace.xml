@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb89d643-c07f-4027-b48d-498fa0699f6e" name="Default" comment="Fixed Reconnection press 1 removal (moved reconnection check from after &quot;Press 1&quot; to after &quot;Not press1&quot;. Tested - working!">
+    <list default="true" id="cb89d643-c07f-4027-b48d-498fa0699f6e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testGUI.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/5318008Show.py" afterPath="$PROJECT_DIR$/5318008Show.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AudienceAudioIntegrator.py" afterPath="$PROJECT_DIR$/AudienceAudioIntegrator.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Script.iws" />
@@ -14,7 +17,8 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Script$AudienceAudioIntegrator.coverage" NAME="AudienceAudioIntegrator Coverage Results" MODIFIED="1437909484079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Script$AudienceAudioIntegrator.coverage" NAME="AudienceAudioIntegrator Coverage Results" MODIFIED="1444816428787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Script$testGUI.coverage" NAME="testGUI Coverage Results" MODIFIED="1444646358176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Script$grantShow.coverage" NAME="grantShow Coverage Results" MODIFIED="1411795368615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Script$showisk.coverage" NAME="showisk Coverage Results" MODIFIED="1411905480412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Script$AudioPlayer.coverage" NAME="AudioPlayer Coverage Results" MODIFIED="1412416166134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -40,7 +44,34 @@
       <file leaf-file-name="AudienceAudioIntegrator.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AudienceAudioIntegrator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="25" selection-start="496" selection-end="496" vertical-scroll-proportion="0.27175844" vertical-offset="0" max-vertical-offset="918">
+            <state line="176" column="16" selection-start="8727" selection-end="8727" vertical-scroll-proportion="0.8705584" vertical-offset="2462" max-vertical-offset="4879">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sys.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.PyCharm20/system/python_stubs/-762174762/sys.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="18" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7752">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tkinter.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://C:/Python27/Lib/lib-tk/Tkinter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2572" column="8" selection-start="106391" selection-end="106442" vertical-scroll-proportion="0.0" vertical-offset="43589" max-vertical-offset="65586">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testGUI.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testGUI.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="58" column="1" selection-start="2021" selection-end="2021" vertical-scroll-proportion="0.0" vertical-offset="986" max-vertical-offset="1768">
               <folding />
             </state>
           </provider>
@@ -49,16 +80,7 @@
       <file leaf-file-name="5318008Show.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/5318008Show.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="0" selection-start="1698" selection-end="1698" vertical-scroll-proportion="0.0" vertical-offset="1114" max-vertical-offset="1700">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__builtin__.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.PyCharm20/system/python_stubs/-762174762/__builtin__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="1104" selection-end="1118" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="86666">
+            <state line="78" column="89" selection-start="1906" selection-end="1906" vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="1853">
               <folding />
             </state>
           </provider>
@@ -76,10 +98,8 @@
       <file leaf-file-name="showisk.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/showisk.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="224" column="51" selection-start="10084" selection-end="10084" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="9809">
-              <folding>
-                <element signature="e#535#558#0" expanded="true" />
-              </folding>
+            <state line="314" column="47" selection-start="14376" selection-end="14383" vertical-scroll-proportion="0.0" vertical-offset="5338" max-vertical-offset="9809">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -116,18 +136,21 @@
         <option value="$PROJECT_DIR$/debugger.py" />
         <option value="$PROJECT_DIR$/zooShow.py" />
         <option value="$PROJECT_DIR$/burnShow.py" />
-        <option value="$PROJECT_DIR$/AudienceAudioIntegrator.py" />
         <option value="$PROJECT_DIR$/importantcommands.txt" />
-        <option value="$PROJECT_DIR$/5318008Show.py" />
         <option value="$PROJECT_DIR$/AudioPlayer.py" />
         <option value="$PROJECT_DIR$/showisk.py" />
+        <option value="C:/Python27/Lib/re.py" />
+        <option value="$PROJECT_DIR$/testGUI.py" />
+        <option value="$PROJECT_DIR$/5318008Show.py" />
+        <option value="$PROJECT_DIR$/AudienceAudioIntegrator.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="1378" />
-    <option name="height" value="735" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -159,7 +182,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -170,29 +193,7 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Script" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Script" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LucilleGrantShowScript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -205,7 +206,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="PublishConfig" serverName="MyShow" serverId="b7a7c978-af8b-4c49-9a24-d2e9a35f0d3e" autoUpload="true">
+  <component name="PublishConfig" serverName="MyShow" serverId="b7a7c978-af8b-4c49-9a24-d2e9a35f0d3e" autoUpload="true" showNewOnSourceInSync="false">
     <servers>
       <server id="b7a7c978-af8b-4c49-9a24-d2e9a35f0d3e">
         <serverdata>
@@ -248,7 +249,7 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="grantShow" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="AudienceAudioIntegrator" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -257,25 +258,6 @@
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Script" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Administrator\Documents\UNI\ZooRepublic\ZooMobileScript\zooShow.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="AudienceAudioIntegrator" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:/Python27/python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Script" />
@@ -319,6 +301,25 @@
       <module name="Script" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="C:\Users\Administrator\Documents\UNI\Performing\Lucille and Grant\LucilleGrantShowScript\burnShow.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="testGUI" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Script" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testGUI.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -476,18 +477,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.showisk" />
-      <item index="1" class="java.lang.String" itemvalue="Python.grantShow" />
-      <item index="2" class="java.lang.String" itemvalue="Python.AudienceAudioIntegrator" />
-      <item index="3" class="java.lang.String" itemvalue="Python.AudioPlayer" />
-      <item index="4" class="java.lang.String" itemvalue="Python.zooShow" />
+      <item index="1" class="java.lang.String" itemvalue="Python.AudienceAudioIntegrator" />
+      <item index="2" class="java.lang.String" itemvalue="Python.AudioPlayer" />
+      <item index="3" class="java.lang.String" itemvalue="Python.zooShow" />
+      <item index="4" class="java.lang.String" itemvalue="Python.testGUI" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.AudienceAudioIntegrator" />
-        <item index="1" class="java.lang.String" itemvalue="Python.zooShow" />
-        <item index="2" class="java.lang.String" itemvalue="Python.AudioPlayer" />
-        <item index="3" class="java.lang.String" itemvalue="Python.showisk" />
-        <item index="4" class="java.lang.String" itemvalue="Python.grantShow" />
+        <item index="1" class="java.lang.String" itemvalue="Python.testGUI" />
+        <item index="2" class="java.lang.String" itemvalue="Python.zooShow" />
+        <item index="3" class="java.lang.String" itemvalue="Python.AudioPlayer" />
+        <item index="4" class="java.lang.String" itemvalue="Python.showisk" />
       </list>
     </recent_temporary>
   </component>
@@ -527,7 +528,11 @@
       <created>1437909771178</created>
       <updated>1437909771178</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="gitignore">
+      <created>1444268918924</created>
+      <updated>1444268918924</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -551,22 +556,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1378" height="735" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41898528" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.67156863" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12481645" sideWeight="0.4599018" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.12371889" sideWeight="0.47790506" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39869282" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.59313726" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5392157" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2913257" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42156863" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -576,6 +581,29 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39869282" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4202658" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.67156863" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39869282" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.59313726" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12371889" sideWeight="0.47790506" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5220949" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39869282" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -587,47 +615,18 @@
     <MESSAGE value="Created 5318008 Show and changed for new server IP" />
     <MESSAGE value="MAJOR CHANGE: Press 1 no-longer needed for reconnect" />
     <MESSAGE value="Fixed Reconnection press 1 removal (moved reconnection check from after &quot;Press 1&quot; to after &quot;Not press1&quot;. Tested - working!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed Reconnection press 1 removal (moved reconnection check from after &quot;Press 1&quot; to after &quot;Not press1&quot;. Tested - working!" />
+    <MESSAGE value="gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
+      <option name="time" value="7" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AudienceAudioIntegrator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="657" selection-end="657" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="595">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/donothing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/burnShow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3468" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/showisk.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="402" column="23" selection-start="18083" selection-end="18088" vertical-scroll-proportion="0.0" vertical-offset="6719" max-vertical-offset="9741">
-          <folding>
-            <element signature="e#535#558#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/wave.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="30" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8857" />
-      </provider>
-    </entry>
     <entry file="file://C:/Python27/Lib/threading.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="22729" />
@@ -648,21 +647,31 @@
         <state line="183" column="117" selection-start="8035" selection-end="8056" vertical-scroll-proportion="2.0978837" vertical-offset="2318" max-vertical-offset="3213" />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm20/system/python_stubs/-762174762/__builtin__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="1104" selection-end="1118" vertical-scroll-proportion="0.0" vertical-offset="264" max-vertical-offset="86666">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/burnShow.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="111" column="88" selection-start="4958" selection-end="4977" vertical-scroll-proportion="0.58536583" vertical-offset="1695" max-vertical-offset="2023" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/importantcommands.txt">
+    <entry file="file://$USER_HOME$/.PyCharm20/system/python_stubs/-762174762/__builtin__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="59" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="256">
+        <state line="1854" column="61" selection-start="63909" selection-end="63909" vertical-scroll-proportion="0.06614786" vertical-offset="31501" max-vertical-offset="86666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/re.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5610" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm20/system/python_stubs/-762174762/exceptions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="126" column="6" selection-start="3921" selection-end="3921" vertical-scroll-proportion="0.3307393" vertical-offset="2057" max-vertical-offset="13651" />
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/lib-tk/Tkinter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2572" column="8" selection-start="106391" selection-end="106442" vertical-scroll-proportion="0.0" vertical-offset="43589" max-vertical-offset="65586">
           <folding />
         </state>
       </provider>
@@ -676,23 +685,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/showisk.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="224" column="51" selection-start="10084" selection-end="10084" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="9809">
-          <folding>
-            <element signature="e#535#558#0" expanded="true" />
-          </folding>
+        <state line="314" column="47" selection-start="14376" selection-end="14383" vertical-scroll-proportion="0.0" vertical-offset="5338" max-vertical-offset="9809">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/importantcommands.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="59" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="256">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm20/system/python_stubs/-762174762/sys.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="18" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7752">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testGUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="1" selection-start="2021" selection-end="2021" vertical-scroll-proportion="0.0" vertical-offset="613" max-vertical-offset="1802">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/5318008Show.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="0" selection-start="1698" selection-end="1698" vertical-scroll-proportion="0.0" vertical-offset="1114" max-vertical-offset="1700">
+        <state line="78" column="89" selection-start="1906" selection-end="1906" vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="1853">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AudienceAudioIntegrator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="25" selection-start="496" selection-end="496" vertical-scroll-proportion="0.27175844" vertical-offset="0" max-vertical-offset="918">
+        <state line="176" column="16" selection-start="8727" selection-end="8727" vertical-scroll-proportion="0.8705584" vertical-offset="2462" max-vertical-offset="4879">
           <folding />
         </state>
       </provider>
